@@ -77,11 +77,13 @@ p {
 }
 
 .card {
+  
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .card:hover {
@@ -90,9 +92,8 @@ p {
 }
 
 .card img {
-  width: 100%;
-  height: 300px;
-  width: 150px;
+  height: 500px;
+  width: 410px;
   object-fit: cover;
 }
 
@@ -101,6 +102,25 @@ p {
   padding: 15px;
   font-size: 1.2rem;
   color: #8b1668;
+}
+
+
+
+.card-text {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;       
+}
+
+.card-text span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll 8s linear infinite;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
 
 footer {
