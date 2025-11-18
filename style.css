@@ -158,6 +158,37 @@ h2 {
   object-fit: cover;
 }
 
+.post {
+  height: 400px;
+  width: 290px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin-top: 20px;
+
+}
+
+.post img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.post h2 {
+  text-align: left;
+  padding: 8px;
+  color: #000;
+}
+
+.heart {
+  text-align: right;
+  padding: 8;
+}
+
+
+
+
 /* FOOTER */
 footer {
   text-align: center;
